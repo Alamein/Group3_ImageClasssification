@@ -28,7 +28,7 @@ score of 80%. However,we have not explored some others image classification mode
 such as AlexNet, VGGNet,ResNet etc to compare their performance on the Nigeria food
 image classification.
 
-Link to the video Presentation: 
+[Link to the video Presentation:]( https://drive.google.com/file/d/16W9fqprLG5669TOFarQ0SzbE13YbcCCl/view?usp=drive_link)
 
 
 ## Team Members
