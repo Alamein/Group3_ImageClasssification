@@ -26,10 +26,18 @@ Our research shows the performance of MobileNetV2 model on indigenous Nigeria fo
 image classification achieved the best performance performance with an prediction
 score of 80%. However,we have not explored some others image classification models
 such as AlexNet, VGGNet,ResNet etc to compare their performance on the Nigeria food
-image classification.
+image classification [Link to the video Presentation:]( https://drive.google.com/file/d/16W9fqprLG5669TOFarQ0SzbE13YbcCCl/view?usp=drive_link)
 
-[Link to the video Presentation:]( https://drive.google.com/file/d/16W9fqprLG5669TOFarQ0SzbE13YbcCCl/view?usp=drive_link)
+## Recommendation 
+In this research study, we proposed a framework for Indigenous Nigeria food image
+classification. An accuracy of 80% was achieved on the second iteration which was an
+improvement on the 73%, 80% which was recorded at every iterations respectively. The
+results obtained revealed that the framework is capable of producing state-of the-art
+results due to a high level of accuracy of the classifications obtained given the relatively
+limited training dataset used. <br> 
 
+Further work should dig further on food image classification according to Nigeria
+regions such as North, East, south and west types of foods
 
 ## Team Members
  Bala Mairiga Abduljalil | ballaabduljalil@gmail.com <br>
