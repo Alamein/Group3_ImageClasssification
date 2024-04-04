@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image Prediction</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='w3.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='all.css') }}">
+    <style>
+        .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+        }
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="w3-container w3-center w3-black">
+        <h3>Classification report</h3>
+    </div>
+    <br>  
+
+    <div class="row">
+        <div class="column w3-center">
+            <h1><b><i>It looks like a <span class="w3-xxlarge">{{ product }}</span></i></b></h1>
+           
+            <img src="{{ user_image }}" alt="User Image" width="60%" class="img-thumbnail">
+            
+        </div>
+        <div class="column">
+            <h3><b>Scores:</b></h3>
+     
+                {% for class_label, score in class_scores.items() %}
+                   <br> {{ class_label }}: {{ score|round(3) }}
+                {% endfor %}
+        
+        </div>
+    </div>
+   
+    <br><div class="w3-center"><a href="{{ url_for('home') }}" style="text-decoration:none"><button class="w3-btn w3-teal w3-round-large" style="width:10%;text-decoration:none;" type="submit" value="reset">Back</button></a></div> <br> 
+
+    <div class="w3-container w3-black">
+        <div class="w3-row">
+            <div class="w3-half w3-container">
+                <h4>About the App</h4>
+                <p>The app was built with Flask framework, Pytorch, and w3.css (modern CSS framework).</p>
+            </div>
+          
+           
+        </div>
+    </div>
+</body>
+</html>
