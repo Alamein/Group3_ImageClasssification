@@ -21,6 +21,16 @@ The dataset used in this project consists of images of various Nigerian food dis
 
 The images are organized into a directory structure where each class has its folder containing the respective images.
 
+## Result and Discussion
+Our research shows the performance of MobileNetV2 model on indigenous Nigeria food
+image classification achieved the best performance performance with an prediction
+score of 80%. However,we have not explored some others image classification models
+such as AlexNet, VGGNet,ResNet etc to compare their performance on the Nigeria food
+image classification.
+
+Link to the video Presentation: 
+
+
 ## Team Members
  Bala Mairiga Abduljalil | ballaabduljalil@gmail.com <br>
  Al-Amin Musa Magaga  | alaminmusamagaga@gmail.com <br>
