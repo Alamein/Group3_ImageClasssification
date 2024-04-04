@@ -23,6 +23,9 @@ The images are organized into a directory structure where each class has its fol
 
 ## Team Members
  Bala Mairiga Abduljalil | ballaabduljalil@gmail.com 
+ Al-Amin Musa Magaga  | alaminmusamagaga@gmail.com
+ Aminu Hamza Nababa | alaminhnab4@gmail.com
+ Lurwanu Abdullahi  | lurwanabdullahi2107@gmail.com
 <!--## Model Architecture
 The image classification model is based on a convolutional neural network architecture implemented using PyTorch. The model architecture consists of the following components:
 - Input Layer: Accepts input images of size (3, 224, 224) corresponding to RGB images resized to 224x224 pixels.
