@@ -22,10 +22,10 @@ The dataset used in this project consists of images of various Nigerian food dis
 The images are organized into a directory structure where each class has its folder containing the respective images.
 
 ## Team Members
- Bala Mairiga Abduljalil | ballaabduljalil@gmail.com 
- Al-Amin Musa Magaga  | alaminmusamagaga@gmail.com
- Aminu Hamza Nababa | alaminhnab4@gmail.com
- Lurwanu Abdullahi  | lurwanabdullahi2107@gmail.com
+ Bala Mairiga Abduljalil | ballaabduljalil@gmail.com <br>
+ Al-Amin Musa Magaga  | alaminmusamagaga@gmail.com <br>
+ Aminu Hamza Nababa | alaminhnab4@gmail.com <br> 
+ Lurwanu Abdullahi  | lurwanabdullahi2107@gmail.com <br> 
 <!--## Model Architecture
 The image classification model is based on a convolutional neural network architecture implemented using PyTorch. The model architecture consists of the following components:
 - Input Layer: Accepts input images of size (3, 224, 224) corresponding to RGB images resized to 224x224 pixels.
