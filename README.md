@@ -12,7 +12,7 @@ The Nigerian Food Classification project aims to develop a deep learning model u
 - Evaluate the model's performance using appropriate metrics and techniques.
 
 ## Dataset
-The dataset used in this project consists of images of various Nigerian food dishes collected from Kaggle. The dataset contains a total of X images belonging to Y classes, including:
+The dataset used in this project consists of images of various Nigerian food dishes collected from Kaggle. The dataset contains a total of 1492 images belonging to 18 classes, including:
 - Jollof Rice
 - Pounded Yam
 - Egusi Soup
@@ -41,8 +41,8 @@ regions such as North, East, south and west types of foods
 
 ## Team Members
  Bala Mairiga Abduljalil | ballaabduljalil@gmail.com <br>
- Al-Amin Musa Magaga  | alaminmusamagaga@gmail.com <br>
- Aminu Hamza Nababa | alaminhnab4@gmail.com <br> 
+ Aminu Hamza Nababa | alaminhnab4@gmail.com <br>
+ Al-Amin Musa Magaga  | alaminmusamagaga@gmail.com <br> 
  Lurwanu Abdullahi  | lurwanabdullahi2107@gmail.com <br> 
 <!--## Model Architecture
 The image classification model is based on a convolutional neural network architecture implemented using PyTorch. The model architecture consists of the following components:
